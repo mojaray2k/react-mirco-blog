@@ -1,4 +1,4 @@
 # React Micro Blog
-__
+_
 
 A React applicaiton that shows blog posts and comments using two **Node** microservices. 
