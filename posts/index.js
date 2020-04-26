@@ -5,7 +5,12 @@ const app = express();
 
 app.use(express.json());
 
-const posts = {};
+const posts = {
+  "256a75f3": {
+    id: "256a75f3",
+    title: "First Post Title",
+  },
+};
 
 app.get("/posts", (req, res) => {
   res.send(posts);
