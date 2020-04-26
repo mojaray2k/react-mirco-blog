@@ -20,7 +20,7 @@ app.post("/posts", (req, res) => {
   // get for random bytes of data to create an id property on any post created
   const id = randomBytes(4).toString("hex");
 
-  // create title as a property on any post created
+  // create a title property on any post created
   const { title } = req.body;
 
   /**
